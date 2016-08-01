@@ -1,0 +1,123 @@
+.paddingmarginZero
+{
+	padding: 0;
+	margin: 0;
+}
+
+/* header area style */
+.headerStyle
+{  
+	background-color: white;
+	padding: 20px 20px 30px 20px;
+        color:black;
+}
+
+/* Navigation area style */
+.navbar
+{
+	margin-bottom: 0px;
+}
+
+/* Cover Area style */
+.jumbotron
+{
+	background: url('../images/bg.png') no-repeat center center;
+	background-position: 0% 25%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+.container .jumbotron, .container-fluid .jumbotron {
+  border-radius: 0px;
+}
+
+.sidebarStyle
+{
+	background-color: #A7D97E;
+	height: 400px;
+	text-align: center;
+}
+.contentAreaStyle
+{
+	background-color: #E8E8C2;
+	height: 400px;
+	text-align: center;
+}
+.footer1Style
+{
+	background-color: #7d7e7d;
+	color: #dddddd;
+	text-align: center;
+}
+.footer2Style
+{
+	background-color: #5C5C5C;
+	color: #dddddd;
+	height: 150px;
+	text-align: center;
+}
+.footerCopyRightStyle
+{
+	background-color: #373737;
+	color: #dddddd;
+	text-align: center;
+}
+#footer {
+	width:100%;
+	border-top:1px solid #cbcbcb;
+	overflow:hidden;
+	margin:0 auto;	
+	background-color: white
+}
+.ads {
+	list-style:none;
+	margin:0 -12px 0 0;
+	padding:0;
+	float:right;
+}
+.ads li {
+	float:left;
+	padding:2px 19px 2px 5px;
+	background:url(../images/ads.gif) no-repeat;
+}
+.ads li a {
+	display:inline;
+	float:left;
+	margin:0 0 0 14px;
+}
+.ads li a img {display:block;}
+.footer-holder {
+	float:left;
+	width:650px;
+	padding:0 0 0 9px;
+}
+.footer-holder address {
+	line-height:1.308em;
+	color:#5c595a;
+	display:block;
+	font-style:normal;
+}
+.footer-holder address span {display:block;}
+.footer-holder ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	height:1%;
+	overflow:hidden;
+	font-size: 0.692em;
+	line-height:1.889em;
+}
+.footer-holder ul li {
+	float:left;
+	padding:0 12px 0 13px;
+	margin:0 13px 0 -13px;
+	background:url(../images/footer-divider.gif) no-repeat 0 5px;
+	white-space:nowrap;
+}
+.footer-holder ul li a {color:#5b3183;}
+.footer-holder p {
+	font-size: 0.769em;
+	line-height: 1.7em;
+	color:#b3b2b2;
+	margin:0;
+}
